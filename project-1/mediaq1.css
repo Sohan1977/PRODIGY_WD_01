@@ -1,0 +1,34 @@
+#services {
+  margin: 12px;
+  display: flex;
+}
+#services .box {
+  border: 2px solid rgb(190, 2, 2);
+  padding: 25px;
+  border-radius: 18px;
+  margin: 70px;
+  background-color: #ede5e5;
+  box-shadow: -6px 8px 7px grey;
+  width: 460px;
+}
+#home {
+  display: flex;
+  flex-direction: column;
+  padding: 2px 2px;
+  justify-content: center;
+  align-items: center;
+  height: 730px;
+}
+
+#services .box img {
+  height: 130px;
+  margin: auto;
+  display: block;
+}
+#navbar {
+  display: flex;
+  position: fixed;
+  height: 73px;
+  width: 100%;
+  opacity: 0.9;
+}
